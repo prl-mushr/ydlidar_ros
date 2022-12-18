@@ -1,5 +1,5 @@
 ![YDLIDAR](sdk/image/YDLidar.jpg  "YDLIDAR")
-# YDLIDAR ROS PACKAGE(V1.4.6)
+# new YDLIDAR ROS PACKAGE(V1.4.6)
 
 ## Dataset 
 |LIDAR      | Model  |  Baudrate |  SampleRate(K) | Range(m)  		   |  Frequency(HZ) | Intenstiy(bit) | SingleChannel | voltage(V)|
