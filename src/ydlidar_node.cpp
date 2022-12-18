@@ -52,7 +52,7 @@ int main(int argc, char * argv[]) {
     std::vector<float> ignore_array;  
     double max_range, min_range;
     double frequency;
-    int samp_rate = 5;
+    int samp_rate = 1;
     bool inverted = true;
     bool isSingleChannel = false;
     bool isTOFLidar = false;
@@ -72,7 +72,7 @@ int main(int argc, char * argv[]) {
     nh_private.param<double>("range_min", min_range , 0.01);
     nh_private.param<double>("frequency", frequency , 10.0);
     nh_private.param<std::string>("ignore_array",list,"");
-    nh_private.param<int>("samp_rate", samp_rate, samp_rate);
+    nh_private.param<int>("samp_rate", samp_rate, 1);
     nh_private.param<bool>("isSingleChannel", isSingleChannel, isSingleChannel);
     nh_private.param<bool>("isTOFLidar", isTOFLidar, isTOFLidar);
  

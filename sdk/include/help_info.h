@@ -233,7 +233,7 @@ inline int lidarModelDefaultSampleRate(int model) {
       break;
 
     case YDLIDAR_X4:
-      sample_rate = 5;
+      sample_rate = 1;
       break;
 
     case YDLIDAR_G4PRO:
